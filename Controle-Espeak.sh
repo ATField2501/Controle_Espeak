@@ -7,7 +7,7 @@
 if [ $# = 0 ]                                       
 then
     echo "..Aucune cible spécifié. ."
-elif [ $1 = -h ]
+elif [ $1 = -h ] 2> /dev/null
 then
     echo " Caglio-Configuration Espeak (Synthetiseur vocal) "
     exit
